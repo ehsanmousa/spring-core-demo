@@ -35,6 +35,7 @@ target/
 .settings/
 .classpath
 .project
+.springBeans
 
 # NetBeans specific
 nbproject/private/
