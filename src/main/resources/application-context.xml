@@ -3,10 +3,4 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
 
-    <bean id="someDate" class="java.time.LocalDate" factory-method="now"/>
-
-    <bean id="someTime" class="java.time.LocalTime" factory-method="now"/>
-
-    <bean id="beanA" class="ir.gov.tax.yazd.spring.core.BeanA" autowire="byType"/>
-
 </beans>
